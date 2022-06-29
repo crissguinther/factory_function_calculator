@@ -1,0 +1,66 @@
+:root {
+  --orange: #fd6534;
+  --gray: #202020;
+}
+
+body {
+  background-color: var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #000;
+  padding: 2rem 1rem;
+
+  border: 1px solid var(--orange);
+  border-radius: 15px;
+}
+
+#display {
+  all: unset;
+  width: 100%;
+  /* max-height: 6em; */
+  margin-bottom: 1em;
+  font-size: 3rem;
+  text-align: right;
+  color: #fff;
+}
+
+.btn {
+  background-color: #303030;
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 800;
+  border: 1px solid #757577;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-clear {
+  background-color: var(--orange);
+  color: #000;
+}
+
+.btn-clear:hover {
+  color: #fff;
+}
+
+.btn-equals {
+  background-color: var(--orange);
+  color: #000;
+}
+
+.btn-equals:hover {
+  color: #fff;
+}
