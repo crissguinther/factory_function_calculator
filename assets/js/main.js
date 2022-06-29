@@ -32,6 +32,10 @@ function createCalculator() {
           this.resolveEquation();
         }
       });
+      this.display.addEventListener("keyup", (e) => {
+        if (e.key === "Enter") this.resolveEquation();
+        return;
+      });
     },
 
     init: function () {
